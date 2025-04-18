@@ -1,0 +1,50 @@
+<!DOCTYPE html1>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Slider -->
+      <div class="slider">
+        <div class="slider-wrapper" id="sliderWrapper">
+          <div class="slide" style="background-image: url('test.png')"></div>
+          <div class="slide" style="background-image: url('test2.png')"></div>
+          <!-- <div class="slide" style="background-image: url('img3.jpg')"></div> -->
+        </div>
+        <div class="pagination" id="pagination">
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+          <span class="dot" data-index="2"></span>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="form-container">
+        <h1>Create an account</h1>
+        <p>Already have an account? <a href="#">Log in</a></p>
+        <form action="#">
+          <input type="text" placeholder="First Name" required />
+          <input type="text" placeholder="Last Name" required />
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Enter your password" required />
+          <div class="checkbox">
+            <input type="checkbox" id="terms" required />
+            <label for="terms"
+              >I agree to the <a href="#">Terms & Conditions</a></label
+            >
+          </div>
+          <button type="submit">Create account</button>
+          <div class="social-buttons">
+            <button class="google">Sign up with Google</button>
+            <button class="apple">Sign up with Apple</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
